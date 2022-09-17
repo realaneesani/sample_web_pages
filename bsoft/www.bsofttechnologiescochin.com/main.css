@@ -1,0 +1,32 @@
+/* pitch slideshow */
+#pitch {
+	clear: both;
+	height: 150px;
+	background: url(images/shadow.html) no-repeat left bottom;
+	margin: 0 0 25px;
+}
+#slideshow {
+	position:relative;
+	height: 180px;
+	width: 165px;
+}
+#slideshow img {
+	float: left;
+}
+#slideshow div {
+	position: absolute;
+	top: 12px;
+	left: 4px;
+	z-index: 8;
+	width: 137px;
+	height: 153px;
+}
+#slideshow div.active {
+    z-index: 10;
+}
+#slideshow div.last-active {
+    z-index: 9;
+}
+#zoom { 
+	z-index: 11; 
+}

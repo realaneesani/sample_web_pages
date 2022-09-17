@@ -1,0 +1,631 @@
+/************************************************
+Css Table Of Content
+-----------------------
+01. Resset Css
+02. Typogrpahy
+    2.1 Font Typography
+    2.2 Color Typography
+    2.3 Hedding Tag Typography
+03. Scroll Top CSS
+04. Global Style
+05. 
+*************************************************/
+
+
+/*--------------01. Start Resset Css------------------*/
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto:300,300i,400,500,700,900');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+    font-size: 18px;
+    margin: 0px auto;
+    font-family: 'Arimo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figur,
+a {
+    margin: 0px;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    -webkit-font-variant-ligatures: common-ligatures;
+    font-variant-ligatures: common-ligatures;
+    font-family: 'Roboto', sans-serif;
+}
+
+P,
+.p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #333;
+    font-family: 'Arimo', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover,
+a:focus,
+input:focus,
+button:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+    outline-offset: 0px;
+}
+
+
+/*------------0.1 End Resset Css----------------------*/
+
+
+/*--------------------02. Typography------------------*/
+
+
+/*------------2.1 font weight Typogrpahy------------*/
+
+.fw_300 {
+    font-weight: 300;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_900 {
+    font-weight: 900;
+}
+
+
+/*------------2.2 color Typogrpahy----------*/
+
+.color_fc {
+    color: #fcfcfc;
+}
+
+.color_77 {
+    color: #777777;
+}
+
+.color_33 {
+    color: #333333;
+}
+
+.color_ff {
+    color: #ffffff;
+}
+
+
+/*-----------2.3 hedding tag Typogrpahy------------*/
+
+h1,
+.h1 {
+    font-size: 60px;
+    line-height: 70px;
+}
+
+h2,
+.h2 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+h3,
+.h3 {
+    font-size: 30px;
+    line-height: 44px;
+}
+
+h4,
+.h4 {
+    font-size: 25px;
+    line-height: 38px;
+}
+
+h5,
+.h5 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h6,
+.h6 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/*-------------03. scroll top css-----------*/
+
+.scroll_top {
+    background: #D5275A none repeat scroll 0 0;
+    border-radius: 3px;
+    bottom: 50px;
+    cursor: pointer;
+    height: 40px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 40px;
+    z-index: 999;
+}
+
+.scroll_top:hover {
+    background: #6F0081;
+}
+
+.not_visible {
+    visibility: hidden;
+    display: none;
+}
+
+.scroll_top i {
+    color: #fff;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+
+/*-------------04. Global style---------------*/
+
+.section_padding {
+    padding: 100px 0px;
+}
+
+.pos_relative {
+    position: relative;
+}
+
+.d_block {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*--------left align-------*/
+
+.f_leftCenter {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.f_leftBottom {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+
+/*-------center align-------*/
+
+.f_centerTop {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.f_centerCenter {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.f_centerBottom {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+
+/*----right align--------*/
+
+.f_rightTop {
+    display: flex;
+    align-items: right;
+    flex-flow: column nowrap;
+    justify-content: right;
+}
+
+.f_rightCenter {
+    display: flex;
+    align-items: right;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.f_rightBottom {
+    display: flex;
+    align-items: right;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+.f_rw_sBetween {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.f_center_sBetween {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.section_tbl {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.section_tbl_cell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.radius_3 {
+    border-radius: 3px;
+}
+
+.radius_5 {
+    border-radius: 5px;
+}
+
+.radius_10 {
+    border-radius: 10px;
+}
+
+.radius_50 {
+    border-radius: 50px;
+}
+
+.radius_100p {
+    border-radius: 100%;
+}
+
+a,
+i,
+img,
+header,
+button,
+input,
+select,
+textarea,
+#goDown,
+.demo_section .single_demo span.templete_title {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+
+/* --------04. End GLOBAL style css ------**/
+
+
+.vertical-line{
+    background: #26272d;
+    width: 1px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.vertical-line.line1{
+    left: calc(100% / 6);
+}
+.vertical-line.line2{
+    left: calc(100% / 6 * 2);
+}
+.vertical-line.line3{
+    left: calc(100% / 6 * 3);
+}
+.vertical-line.line4{
+    left: calc(100% / 6 * 4);
+}
+.vertical-line.line5{
+    left: calc(100% / 6 * 5);
+}
+
+/*----------banner section style----------*/
+body{
+    background: #1e1f23;
+}
+.banner_preview {
+    background: url(images/slider-img9.jpg) no-repeat center center / cover;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.banner_content {
+    height: 570px;
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+    position: relative;
+}
+
+.banner_preview .overlay {
+    background: rgba(20, 21, 25, 0.8);
+    z-index: 2;
+}
+
+.banner_preview .banner_content h1 {
+    padding-bottom: 10px;
+}
+.banner_preview .banner_content h2 {
+    text-transform: capitalize;
+}
+
+.banner_preview .banner_content #goDown {
+    background: #fff;
+    color: #f43534;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 30px;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+.banner_preview .banner_content #goDown:hover {
+    background: #f43534;
+    color: #fff;
+}
+
+
+
+/*----------page pre preloader------------*/
+#loading {
+    background: #720f83;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 999;
+}
+
+#preloader {
+	position:relative;
+    width: 80px;
+    height: 80px;
+    top: 45%;
+    margin: 0 auto;
+}
+#preloader span {
+	position:absolute;
+	border: 8px solid #d760ff;
+	border-top: 8px solid transparent;
+	border-radius:999px;
+}
+
+#preloader span:nth-child(1){
+	width:80px;
+	height:80px;
+	-webkit-animation: spin-1 2s infinite linear;
+	        animation: spin-1 2s infinite linear;
+}
+#preloader span:nth-child(2){
+	top: 20px;
+	left: 20px;
+	width:40px;
+	height:40px;
+	-webkit-animation: spin-2 1s infinite linear;
+	        animation: spin-2 1s infinite linear;
+}
+@-webkit-keyframes spin-1 {
+	0% {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+	50% {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+	100% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+@keyframes spin-1 {
+	0% {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+	50% {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+	100% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+@-webkit-keyframes spin-2 {
+	0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+	50% {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+	100% {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}
+@keyframes spin-2 {
+	0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+	50% {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
+	100% {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}
+
+
+
+/*------------demo section------------*/
+
+.demo_section {
+    padding: 100px 0 30px;
+}
+.demo_section .demo_wrapper {
+    margin-left: -30px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.demo_section .single_demo a {
+    display: block;
+    border-radius: 5px;
+}
+
+.demo_section .single_demo {
+    margin-bottom: 40px;
+    margin-left: 30px;
+    width: calc(100% / 2 - 30px);
+}
+.single_demo.text-center.demo3 {
+    width: 100%;
+}
+
+.demo_section .single_demo a img {
+    border-radius: 5px;
+    box-shadow: 0 2px 13px rgba(0, 0, 0, 0.3);
+    height: auto;
+    width: 100%;
+}
+
+.demo_section .single_demo span.templete_title {
+    display: block;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #f43534;
+}
+
+
+/*----------demo puls hover---------*/
+
+@-webkit-keyframes hvr_pulse {
+    25% {
+        -webkit-transform: scale(1.02);
+        -o-transform: scale(1.02);
+        transform: scale(1.02);
+    }
+    75% {
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes hvr_pulse {
+    25% {
+        -webkit-transform: scale(1.02);
+        -o-transform: scale(1.02);
+        transform: scale(1.02);
+    }
+    75% {
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.demo_section .single_demo a img {
+    -webkit-transform: perspective(1px) translateZ(0);
+    -moz-transform: perspective(1px) translateZ(0);
+    -o-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+}
+
+.demo_section .single_demo:hover img {
+    -webkit-animation: hvr_pulse 0.5s linear;
+    -moz-animation: hvr_pulse 0.5s linear;
+    -o-animation: hvr_pulse 0.5s linear;
+    animation: hvr_pulse 0.5s linear;
+}
+
+
+/*------------footer style-------------*/
+
+footer {
+    background: #141519 url(images/service-bg.jpg) no-repeat center center / cover;
+    border-top: 1px solid #26272d;
+    padding: 30px 0;
+}
+.copyright_txt{
+    position: relative;
+    z-index: 2;
+}
+footer .copyright_txt a{
+    color: #f43534;
+    font-weight: 700;
+}
+footer .copyright_txt a:hover{
+    text-decoration: underline;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+
+footer ul li a {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    width: 30px;
+}
+
+footer ul li a:focus,
+footer ul li a:hover{
+    border-color: #fff;
+    color: #D5275A;
+    background: #fff;
+}

@@ -1,0 +1,29 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 24 May 2022 22:17:30 at http://paul-themes.com/html/bauhaus-op/demo/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://paul-themes.com/html/bauhaus-op/demo/ -O1 "C:\Users\PC\Desktop\Artist\DARK" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:20:20	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/glyphicons-halflings-regular.eot (from paul-themes.com/html/bauhaus-op/demo/css/bootstrap.css)
+22:20:20	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/glyphicons-halflings-regular.eot? (from paul-themes.com/html/bauhaus-op/demo/css/bootstrap.css)
+22:20:20	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/glyphicons-halflings-regular.woff2 (from paul-themes.com/html/bauhaus-op/demo/css/bootstrap.css)
+22:20:20	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/glyphicons-halflings-regular.woff (from paul-themes.com/html/bauhaus-op/demo/css/bootstrap.css)
+22:20:20	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/glyphicons-halflings-regular.ttf (from paul-themes.com/html/bauhaus-op/demo/css/bootstrap.css)
+22:20:20	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/glyphicons-halflings-regular.svg (from paul-themes.com/html/bauhaus-op/demo/css/bootstrap.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/css/owl.video.play.png (from paul-themes.com/html/bauhaus-op/demo/css/owl.carousel.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/revicons/revicons.eot?5510888 (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/revicons/revicons.woff?5510888 (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/revicons/revicons.ttf?5510888 (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/fonts/revicons/revicons.svg?5510888 (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/css/openhand.cur (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/css/closedhand.cur (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/assets/gridtile.png (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/assets/gridtile_white.png (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/assets/gridtile_3x3.png (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/assets/gridtile_3x3_white.png (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+22:20:21	Error: 	"Not Found" (404) at link paul-themes.com/html/bauhaus-op/demo/assets/coloredbg.png (from paul-themes.com/html/bauhaus-op/demo/css/settings.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 51 seconds : 99 links scanned, 80 files written (5078108 bytes overall), 80 files updated [3637703 bytes received at 21273 bytes/sec], 2329093 bytes transferred using HTTP compression in 58 files, ratio 34%, 7.0 requests per connection
+(18 errors, 0 warnings, 0 messages)
